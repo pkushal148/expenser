@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signIn
+{
+  background-color: black;
+  color: wheat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.heading h1
+{
+  font-size: 5em;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading h4
+{
+  font-size: 1.5em;
+}
+
+.login p
+{
+  font-size: 2em;
+}
+
+.login-btn{
+  font-size: 2em;
+  border-radius: 20px;
+  padding: 5px;
+  min-width: 100px;
+}
+
+
+/* //user */
+
+
+.name
+{
+  font-weight: 500;
+  font-size: 2em;
+}
+
+
+.signOut
+{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 1.25em;
+}
+
+.summary
+{
+  margin-top: 4em;
+  border: 3px solid black;
+}
+
+label
+{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.input-c
+{
+  min-width: 300px;
+  min-height: 50px;
+}
+
+.userInfo
+{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sample
+{
+  margin-top: 2em;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction p
+{
+  font-size: 1.2em;
+  font-weight: 500;
 }
